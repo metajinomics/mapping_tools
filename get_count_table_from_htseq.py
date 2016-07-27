@@ -14,7 +14,7 @@ for f in sys.argv[1:]:
     co = []
     for n,line in enumerate(open(f)):
         #print line
-        if(line[:1] == '*'):
+        if(line[:1] == '_'):
             continue
         spl = line.strip().split('\t')
         if(flag == 0):
