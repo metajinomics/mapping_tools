@@ -20,8 +20,8 @@ for f in sys.argv[1:]:
         if(flag == 0):
             ids.append(spl[0])
             #length.append(spl[1])
-        su = int(spl[2])+int(spl[3])
-        co.append(str(su))
+        #su = int(spl[2])+int(spl[3])
+        co.append(spl[1])
     count.append(co)
     co = []
     flag = 1
