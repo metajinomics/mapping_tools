@@ -26,7 +26,7 @@ for f in sys.argv[1:]:
     co = []
     flag = 1
 names = '\t'.join(fname)
-print '\t'.join(['contig','length',names])
+print '\t'.join(['contig',names])
 for i in range(0,len(ids)):
     tco = []
     for j in range(0,len(count)):
